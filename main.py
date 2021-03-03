@@ -38,6 +38,10 @@ async def on_message(message):
   	f = get_fortune()
   	await message.channel.send(f)
 	
+  elif message.content.startswith('+q'):
+    q = get_quote()
+    await message.channel.send(q)
+	
 
 
 client.run(os.getenv('TOKEN'))
