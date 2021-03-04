@@ -3,7 +3,7 @@
 Discord Bot that sends fortunes, like a fortune cookie, when promted.
 
 ## Commands
-+f - outputs a "saying" from an API. A new API is needed that has actual fortunes the current one is prety bad
++f - outputs a "saying" from an API. The current API is pretty bad and I could not find a good one so I am in the process of creating one.
 
 +q - outputs a quote from Zenquotes API
 
